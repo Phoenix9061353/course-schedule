@@ -9,10 +9,15 @@ html {
   font-family: sans-serif;
   line-height: 1.7;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   html {
     font-size: 50%;
-    letter-spacing: -1px;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    letter-spacing: -0.7px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -49,7 +54,7 @@ html {
   color: #fff;
   transform: translateY(1.7rem);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .heading-days {
     transform: translateY(2.7rem);
   }
@@ -83,7 +88,7 @@ main {
     width: 100vw;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   main {
     padding: 4rem;
   }
@@ -213,7 +218,7 @@ main {
 }
 @media screen and (max-width: 700px) {
   .course__name {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 .course__another {
